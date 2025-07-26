@@ -87,11 +87,15 @@ await workDayPage.getByRole('button', {name: 'Autofill with Resume'}).click();
 
 await workDayPage.locator('[data-automation-id="backToJobPosting"]').click();
 
-const jobLocationWdPage = await page.locator('[data-automation-id="jobPostingDescription"] p:has-text("Location:")').textContent();
+const jobIdWdPage = await workDayPage.locator('[data-automation-id="requisitionId"]').textContent();
+console.log(jobIdWdPage);
+expect(jobIdWdPage).toContain(jobId);
+
+const jobLocationWdPage = await workDayPage.locator('[data-automation-id="jobPostingDescription"] p:has-text("Location:")').textContent();
 console.log(jobLocationWdPage);
 expect(jobLocationWdPage).toContain(jobLocation);
 
-const jobIdWdPage = await page.locator('[data-automation-id="requisitionId"]').textContent();
-console.log(jobIdWdPage);
-expect(jobIdWdPage).toContain(jobId);
+await workDayPage.locator('[data-automation-id="logo"][alt="careers"]').click();
+await expect(workDayPage).toHaveURL(/.*careers\.labcorp\.com.*/);
+
 });
