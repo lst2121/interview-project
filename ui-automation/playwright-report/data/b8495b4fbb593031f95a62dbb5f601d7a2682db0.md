@@ -1,0 +1,292 @@
+# Page snapshot
+
+```yaml
+- link "Skip to main content":
+  - /url: "#skipToMainContent"
+- link "Company Logo":
+  - /url: https://careers.labcorp.com/global/en/home
+  - figure:
+    - img "Labcorp Logo"
+- navigation
+- form "Global search":
+  - text: Search job title or location
+  - textbox "Search job title or location"
+  - button "Search"
+- list:
+  - listitem
+  - listitem
+  - listitem:
+    - link "0 Saved jobs":
+      - /url: https://careers.labcorp.com/global/en/jobcart
+- navigation:
+  - list:
+    - listitem:
+      - button "Life at Labcorp"
+    - listitem:
+      - button "Featured Careers"
+    - listitem:
+      - button "Students and Graduates"
+    - listitem:
+      - button "Stay Connected"
+    - listitem:
+      - button "Login"
+    - listitem:
+      - link:
+        - /url: https://www.levelaccess.com/a/labcorp/
+        - listitem:
+          - link "Digital accessibility, link opens in new window":
+            - /url: https://www.essentialaccessibility.com/labcorp
+            - img "Digital accessibility tools"
+- main:
+  - region:
+    - heading "Senior Automation and Robotics Software Engineer" [level=1]
+    - text: "Category Information Technology Location Bloomfield, Connecticut, United States of America Job ID : 2512136 Job Type Full-Time Remote: No"
+    - button "Apply Now for COVAGLOBAL2512136EXTERNALENGLOBAL": Apply Now
+    - checkbox "Save job Senior Automation and Robotics Software Engineer"
+    - text: Save Job
+    - link "Labcorp Employee? Apply Here":
+      - /url: https://www.myworkday.com/labcorp/d/task/1422$72.htmld
+  - text: Improve Health and Improve Lives in Information Technology.
+  - img "Learn more about IT at Labcorp"
+  - button "click here to play video in dialog":
+    - figure "Watch the video"
+  - link "Back to search results":
+    - /url: https://careers.labcorp.com/global/en/search-results?keywords=Senior%20Automation%20and%20Robotics%20Software%20Engineer&s=1
+  - link "<p aria-hidden=\"true\">Visible text screen readers should ignore</p>":
+    - /url: https://careers.labcorp.com/global/en/job/2522967/Senior-Software-Engineer
+    - text: Next job
+  - paragraph: "Location: Bloomfield, CT"
+  - paragraph: "Company: Protedyne, a subsidiary of Laboratory Corporation of America"
+  - paragraph: About Us Protedyne combines the design principles of industrial automation with cutting-edge robotic hardware and software infrastructure to deliver comprehensive data management and process tracking solutions. As part of Labcorp, our mission is to develop smarter, faster automation solutions that include robots to optimize efficiency in diagnostic testing laboratories worldwide.
+  - paragraph: "We are seeking a Senior Automation and Robotics Software Engineer to join our Software Development team at our Bloomfield, CT headquarters. This is an exciting opportunity for an experienced engineer with a passion for automation and robotics, and an interest in future leadership opportunities within the team. They will work in the Software Development Department and should have experience developing automation/robotic systems, ideally for laboratory applications. This is a hands-on role developing and supporting automation and robotic systems for laboratory applications, from initial design and prototyping to production and ongoing support. These applications are used in networked, embedded laboratory automation systems. The ideal candidate has a robust understanding of automation technologies, including machine vision, and expertise in Java, Spring Framework, and RESTful Web Services, with a focus on database-backed systems. A wide breadth of understanding of automation technologies is required. For example: experience with servo motors, I/O fieldbuses, machine vision, serial and TCP/IP device interfaces, networking, man-machine interfaces, and process control for multi-step applications is desired. This position requires substantial interaction with multifunctional product development teams and demands strong communications skills. This role offers a potential path to leadership, with the opportunity to transition into a management position after gaining a strong understanding of Protedyne’s technology and software systems."
+  - paragraph: "Duties/Responsibilities:"
+  - list:
+    - listitem:
+      - paragraph: Design/develop/support application software for automation equipment, including liquid-handling and instrument-tending laboratory robots.
+    - listitem:
+      - paragraph: Work with Manufacturing Engineering to write bring-up, test and diagnostic software for automation equipment.
+    - listitem:
+      - paragraph: Collaborate with Product Marketing, Engineering Design, and end users to develop application requirements.
+    - listitem:
+      - paragraph: Contribute to the development of core tools, in Java and other software environments, to simplify application programming.
+    - listitem:
+      - paragraph: Design, implement, and maintain application specific user interfaces, web services, backend database systems and/or performance metrics.
+    - listitem:
+      - paragraph: Work with Customer Care to help troubleshoot field service/production support issues.
+    - listitem:
+      - paragraph: Participate in code reviews, technical discussions, and process improvement initiatives to elevate software quality and team efficiency.
+    - listitem:
+      - paragraph: Develop within an ISO 13485 Quality environment.
+    - listitem:
+      - paragraph: Other duties as assigned.
+  - paragraph: "Skills/Knowledge/Educational Requirements:"
+  - list:
+    - listitem:
+      - paragraph: 3 – 10 years experience developing application-level software for laboratory and/or industrial automation.
+    - listitem:
+      - paragraph: Hands-on experience with industrial automation, robotics, pneumatic actuators, sensors, and servo motors.
+    - listitem:
+      - paragraph: Experience with Java and/or another object-oriented language
+      - list:
+        - listitem:
+          - paragraph: Background in object-oriented design methodologies.
+        - listitem:
+          - paragraph: Experience with embedded and/or real-time Java.
+        - listitem:
+          - paragraph: Experience with Eclipse and/or VS Code IDE(s) with SVN, Maven and Nexus module management.
+        - listitem:
+          - paragraph: Experience with GIT, and GIT Hub.
+        - listitem:
+          - paragraph: Knowledge of Java-based frameworks a plus, specifically Spring, Spring Boot and Hibernate JPA.
+        - listitem:
+          - paragraph: Experience with containerization (Docker, Kubernetes) is a plus.
+        - listitem:
+          - paragraph: Experience creating drivers to interface 3rd party equipment a plus.
+        - listitem:
+          - paragraph: Experience with relational and/or NoSQL database architecture a plus.
+    - listitem:
+      - paragraph: Experience developing machine vision algorithms, including inspection vision, guidance vision, and general machine vision technologies.
+      - list:
+        - listitem:
+          - paragraph: Proven ability to develop and integrate vision-based algorithms for robotic guidance, quality inspection, and real-time feedback.
+    - listitem:
+      - paragraph: General knowledge of laboratory procedures in life sciences and diagnostic laboratories a plus.
+    - listitem:
+      - paragraph: Demonstrated success in using strong communication skills to thrive in collaborative, multi-discipline, cross-functional environments.
+      - list:
+        - listitem:
+          - paragraph: Substantial interaction with multifunctional product development teams required.
+    - listitem:
+      - paragraph: BS Computer Science, Engineering or other relevant degree or equivalent experience.
+  - paragraph: "Additional Knowledge (Preferred):"
+  - list:
+    - listitem:
+      - paragraph: Experience leading a technical team is a strong plus.
+    - listitem:
+      - paragraph: Experience with OpenJDK 11 or later a plus.
+    - listitem:
+      - paragraph: Experience in Java messaging (ActiveMQ or equivalent) a plus.
+    - listitem:
+      - paragraph: Experience in Web Services a plus.
+    - listitem:
+      - paragraph: Experience in a major Database package such as MySQL, Oracle, IBM Netezza, MariaDB, Casandra, or MongoDB a plus.
+    - listitem:
+      - paragraph: Experience with production metrics/big data a plus.
+    - listitem:
+      - paragraph: Experience in ETL and other large data migration projects a plus.
+    - listitem:
+      - paragraph: Experience in Java Persistence (JPA) or equivalent a plus.
+    - listitem:
+      - paragraph: Understanding of CSS styling, HTML5 and Angular2 experience a plus.
+  - paragraph:
+    - text: "Benefits: Employees regularly scheduled to work 20 or more hours per week are eligible for comprehensive benefits including: Medical, Dental, Vision, Life, STD/LTD, 401(k), Paid Time Off (PTO) or Flexible Time Off (FTO), Tuition Reimbursement and Employee Stock Purchase Plan. Casual, PRN & Part Time employees regularly scheduled to work less than 20 hours are eligible to participate in the 401(k) Plan only. For more detailed information, please"
+    - link "click here":
+      - /url: https://careers.labcorp.com/global/en/us-rewards-and-wellness
+    - text: .
+  - paragraph: "Labcorp is proud to be an Equal Opportunity Employer:"
+  - paragraph: Labcorp strives for inclusion and belonging in the workforce and does not tolerate harassment or discrimination of any kind. We make employment decisions based on the needs of our business and the qualifications and merit of the individual. Qualified applicants will receive consideration for employment without regard to race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), family or parental status, marital, civil union or domestic partnership status, sexual orientation, gender identity, gender expression, personal appearance, age, veteran status, disability, genetic information, or any other legally protected characteristic. Additionally, all qualified applicants with arrest or conviction records will be considered for employment in accordance with applicable law.
+  - paragraph: We encourage all to apply
+  - paragraph:
+    - text: If you are an individual with a disability who needs assistance using our online tools to search and apply for jobs, or needs an accommodation, please visit our
+    - link "accessibility site":
+      - /url: https://careers.labcorp.com/global/en/accessibility
+    - text: or contact us at
+    - link "Labcorp Accessibility.":
+      - /url: mailto:Disability_apply@LabCorp.com
+    - text: For more information about how we collect and store your personal data, please see our
+    - link "Privacy Statement":
+      - /url: https://www.labcorp.com/about/web-privacy-policy
+    - text: .
+  - button "<p aria-hidden=\"true\">Visible text screen readers should ignore</p>": Apply Now
+  - checkbox "<p aria-hidden=\"true\">Visible text screen readers should ignore</p>"
+  - link "Labcorp Employees Click to Apply Here":
+    - /url: https://www.myworkday.com/labcorp/d/task/1422$72.htmld
+    - text: Labcorp Employee? Apply Here
+  - heading "In Pursuit of Answers™" [level=2]
+  - figure:
+    - img "Video still frame of scientist carrying specimens in the lab."
+  - button "click here to play video.":
+    - figure "Watch the video":
+      - img "In Pursuit of Answers"
+  - heading "Join us in harnessing science for human good." [level=2]
+  - text: Labcorp is global leader of innovative and comprehensive laboratory services that helps doctors, hospitals, pharmaceutical companies, researchers and patients make clear and confident decisions. Through our unparalleled diagnostics and drug development laboratory capabilities, our nearly 70,000 employees combine cutting-edge innovation, science and technology to solve some of today’s biggest health challenges, accelerate life-changing healthcare breakthroughs and impact lives around the world.
+  - list:
+    - listitem:
+      - figure
+      - text: Join Our Talent Network. Didn't find what you are looking for? Join our Talent Network to receive updates on available opportunities.
+    - listitem:
+      - figure
+      - link "Join our Talent Network":
+        - /url: https://careers.labcorp.com/global/en/jointalentcommunity
+        - text: Join Today
+- contentinfo:
+  - list
+  - link "Company Logo":
+    - /url: https://careers.labcorp.com/global/en/home
+    - figure:
+      - img "Labcorp Company Logo"
+  - list:
+    - listitem:
+      - heading "Labcorp" [level=2]
+      - list:
+        - listitem:
+          - link "Learn about our story at Labcorp (opens in a new tab)":
+            - /url: https://www.labcorp.com/about/our-story
+            - text: Our Story
+        - listitem:
+          - link "Learn about LabCorp Leadership (opens in a new tab)":
+            - /url: https://www.labcorp.com/about/our-story/leadership
+            - text: Leadership
+        - listitem:
+          - link "Visit LabCorp Newsroom for latest updates (opens in a new tab)":
+            - /url: https://www.labcorp.com/newsroom
+            - text: Newsroom
+        - listitem:
+          - link "Visit LabCorp Investor Relations (opens in a new tab)":
+            - /url: https://ir.labcorp.com/
+            - text: Investors
+        - listitem:
+          - link "Visit LabCorp Corporate Website (opens in a new tab)":
+            - /url: https://www.labcorp.com/
+            - text: Labcorp.com
+    - listitem:
+      - heading "Resources" [level=2]
+      - list:
+        - listitem:
+          - link "Accessibility Support":
+            - /url: https://careers.labcorp.com/global/en/accessibility
+        - listitem:
+          - link "EEO and Compliance":
+            - /url: https://careers.labcorp.com/global/en/eeo
+        - listitem:
+          - link "Animal Welfare (Opens New Page)":
+            - /url: https://www.labcorp.com/biopharma/nonclinical/why-work/cares
+            - text: Animal Welfare
+    - listitem:
+      - heading "Quick Links" [level=2]
+      - list:
+        - listitem:
+          - link "Search All Jobs":
+            - /url: https://careers.labcorp.com/global/en/search-results
+            - text: Job Search
+        - listitem:
+          - link "Students and Graduates":
+            - /url: https://careers.labcorp.com/global/en/students
+        - listitem:
+          - link "US Military and Veterans":
+            - /url: https://careers.labcorp.com/global/en/us-veterans
+    - listitem:
+      - heading "Privacy" [level=2]
+      - list:
+        - listitem:
+          - link "Personal Information":
+            - /url: https://careers.labcorp.com/global/en/personal-information
+        - listitem:
+          - link "Privacy Policy (Opens New Window)":
+            - /url: https://www.labcorp.com/about/web-privacy-policy
+            - text: Privacy Policy
+        - listitem:
+          - link "Recruitment Fraud Alert":
+            - /url: https://careers.labcorp.com/global/en/scam-alert
+        - listitem:
+          - link "Cookie Settings":
+            - /url: javascript:void(0)
+            - text: Do Not Sell or Share My Personal Information
+  - heading "follow us" [level=2]
+  - list:
+    - listitem:
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/labcorp
+    - listitem:
+      - link "facebook":
+        - /url: https://www.facebook.com/Labcorp
+    - listitem:
+      - link "Twitter":
+        - /url: https://x.com/Labcorp
+    - listitem:
+      - link "Instagram":
+        - /url: https://www.instagram.com/labcorp/?hl=en
+    - listitem:
+      - link "Youtube":
+        - /url: https://www.youtube.com/c/LabcorpVideo/playlists
+    - listitem
+    - listitem
+    - listitem
+  - text: Separator © 2025 Labcorp®. All Rights Reserved.
+  - navigation:
+    - list
+- region "Cookie Banner":
+  - dialog "Cookie Notice":
+    - heading "Cookie Notice" [level=2]
+    - text: We use cookies to enable certain functions and tools on this website, track resources and data used on this website, and promote our products and services. We also share information about your use of our website with our analytics partners. If you select "Reject Cookies," essential cookies will remain active. For more information on our use of cookies, please see our
+    - link "Website Privacy Policy":
+      - /url: https://www.labcorp.com/hipaa-privacy/web-privacy-policy
+    - text: . By accessing or using the Labcorp website or other Labcorp online applications, you acknowledge that you understand and agree to be bound by the
+    - link "Terms and Conditions":
+      - /url: https://www.labcorp.com/terms-and-conditions
+    - text: .
+    - button "Cookies Settings"
+    - button "Reject Cookies"
+    - button "Accept All Cookies"
+    - button "Close"
+```
