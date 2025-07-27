@@ -63,10 +63,13 @@ def test_post_request():
     assert response.status_code == 200
     response_data = response.json()
     
-    assert "order_id" in response_data
-    assert "customer" in response_data
-    assert "items" in response_data
-    assert "payment" in response_data
-    assert "shipping" in response_data
-    assert "order_status" in response_data
-    assert "created_at" in response_data 
+    assert "parsedBody" in response_data
+    parsed_body = response_data["parsedBody"]
+    
+    assert "order_id" in parsed_body
+    assert "customer" in parsed_body
+    assert "items" in parsed_body
+    assert "payment" in parsed_body
+    assert "shipping" in parsed_body
+    assert "order_status" in parsed_body
+    assert "created_at" in parsed_body 
